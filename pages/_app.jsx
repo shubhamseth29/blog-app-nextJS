@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Script strategy = 'lazyOnload' src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9184389292080783"
      crossorigin="anonymous"></Script>
-      <Script strategy = 'lazyOnload' src = {`'https://www.googletagmanager.com/gtag/js?id=G-J1ESKLW91W'`}>
+      <Script strategy = 'lazyOnload' src = "https://www.googletagmanager.com/gtag/js?id=G-J1ESKLW91W">
       </Script>
       <Script strategy = 'lazyOnload'>
         {
